@@ -7,10 +7,9 @@
   <a href="https://r-muthu.github.io/Intro-to-JS-workshop/">DiscoverSUTD 2023 3DC Intro to JavaScript Workshop</a>
   
   <p>Design Thinking and Innovation Project 2023: 50ARCHES</p>
-  <video width="320" height="240" controls>
-  <source src="ripple_effect.mp4" type="video/mp4">
-  </video>
-  
+  https://github.com/r-muthu/r-muthu.github.io/assets/158065393/ee4d6542-2a29-47c9-8e7b-290b373ee0de
   </body>
+
+
     
 </html>
