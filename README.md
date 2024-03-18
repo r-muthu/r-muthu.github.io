@@ -10,7 +10,7 @@
     <li>
       <h4><a href="https://gdsc.community.dev/events/details/developer-student-clubs-singapore-university-of-technology-and-design-presents-intro-to-javascript/">3DC Intro to JavaScript Workshop</a></h4>
       <img src="https://github.com/r-muthu/r-muthu.github.io/assets/158065393/776042bb-963b-4998-a1ab-fb4d48fb34ce"><br>
-      <a href="https://r-muthu.github.io/Intro-to-JS-workshop/">To access the resources used for the workshop, click here.</a>
+      <a href="https://github.com/r-muthu/Intro-to-JS-workshop/tree/main">To access the resources used for the workshop, click here.</a>
       <p>This is a workshop that I prepared and facilitated on my own. I hope you will find these resources useful!!!</p>
     </li>
     <br>
