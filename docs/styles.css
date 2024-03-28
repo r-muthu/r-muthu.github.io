@@ -37,9 +37,9 @@ header {
 }
 
 .profile-photo img {
-  border-radius: 50%; /* To make the image round */
-  width: 50px; /* Adjust size as needed */
-  height: 50px;
+  border-radius: 50%;
+  width: 100px; 
+  height: 100px;
 }
 
 header h1 {
@@ -52,7 +52,7 @@ header h3 {
 }
 
 .workshops, .projects {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 h2 {
