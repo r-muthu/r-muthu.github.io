@@ -19,8 +19,27 @@ body {
 header {
   background-color: #3498db;
   color: #fff;
-  padding: 40px 0;
-  text-align: center;
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo {
+  flex: 0 0 auto; /* Do not grow or shrink, maintain initial size */
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.header-text {
+  flex: 1; /* Take up remaining space */
+}
+
+.profile-photo img {
+  border-radius: 50%; /* To make the image round */
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
 }
 
 header h1 {
@@ -78,4 +97,25 @@ h4 {
 
 .workshop-details a:hover, .project-details a:hover {
   text-decoration: underline;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-contact {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the footer horizontally */
+}
+
+.linkedin-link {
+  color: #0077b5; /* LinkedIn blue color */
+  text-decoration: none; /* Remove underline */
+}
+
+.linkedin-link:hover {
+  text-decoration: underline; /* Underline on hover */
 }
