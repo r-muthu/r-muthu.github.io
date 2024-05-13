@@ -111,11 +111,11 @@ footer {
   margin: 0 auto; /* Center the footer horizontally */
 }
 
-.linkedin-link, .js-link, .robot-vid, .dti-vid {
+.linkedin-link, .js-link, .robot-vid, .dti-vid, .java-link{
   color: #0077b5; /* LinkedIn blue color */
   text-decoration: none; /* Remove underline */
 }
 
-.linkedin-link:hover, .js-link:hover, .robot-vid:hover, .dti-vid:hover {
+.linkedin-link:hover, .js-link:hover, .robot-vid:hover, .dti-vid:hover, .java-link:hover {
   text-decoration: underline; /* Underline on hover */
 }
