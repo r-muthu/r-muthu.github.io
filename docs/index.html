@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
+  <header class="header">
     <div class="container header-content">
       <div class="profile-photo">
         <img src="assets/images/profile.jpg" alt="Profile Photo" class="profile-img">
@@ -19,76 +19,70 @@
     </div>
   </header>
 
-  <section class="projects">
+  <section class="projects section">
     <div class="container">
-      <h2>I have been involved in the in the following notable projects (and many more):</h2>
-      <ul>
-        <li>
-          <h4>Dell Workshop Resource Management App</h4>
-          <div class="project-details">
-            <!--img src="assets/images/___" alt="Image of our web app"-->
-            <p>I collaborated in a team of 7 to develop, test, and implement a Workshop Resource Management Web Application. My role primarily involved developing and testing backend code using NodeJS/Mongoose. I did some systems testing using Cypress.</p>
-            <p>To see the code for the web app, click <a href="https://github.com/lowtinghao/dell_project/tree/main_backup" class="dell-link">here</a>.</p>
-          </div>
+      <h2>Projects</h2>
+      <ul class="project-list">
+        <li class="project-details">
+          <h4>Hate Speech Classification - Machine Learning Project</h4>
+          <p>I developed and evaluated multiple machine learning models for hate speech classification, optimizing for accuracy and efficiency. I implemented a logistic regression model from scratch and applied PCA for feature dimensionality reduction. To improve performance, I used GridSearch for hyperparameter tuning, ensuring optimal model configurations.</p>
         </li>
-        
-        <li>
-          <h4>SUTD Food Review App &#40;using Android Studio Code with Java&#41;</h4>
-          <div class="project-details">
-            <img src="assets/images/50001_group_photo.jpg" alt="Image of our app">
-            <p>I collaborated in a team of 7 to develop, test, and implement a food review application using Android Studio. My role primarily involved developing and testing backend Java code for the app, utilizing various sorting algorithms. Additionally, I crafted frontend XML code to display menu items.</p>
-            <p>To see the code for the food review app, click <a href="https://github.com/nightlocky/infosys-group12-fovoroapp" class="java-link">here</a> and download 'Fovoro'. Open the folder in Android Studio in order to run the app using an emulator.</p>
-          </div>
+        <li class="project-details">
+          <h4>Dell Project: Resource Management App</h4>
+          <p>I collaborated in an Agile team of 7 to develop, test, and deploy a Workshop Resource Management Web Application. My primary focus was on backend development using Node.js and Mongoose, where I built and optimized database interactions and API functionality. I also contributed to system testing using Cypress, ensuring application reliability and performance.</p>
+          <p>Code: <a href="https://github.com/lowtinghao/dell_project/tree/main_backup" class="js-link">here</a></p>
         </li>
-
-        <li>
-          <h4>Design Thinking Project on Food Security: Supervised Machine Learning Model</h4>
-          <div class="project-details">
-            <p>I was part of a 5-member team that analysed the relationship between the prevalence of undernourishment and the various contributing variables, aiming to address food security in alignment with Sustainable Development Goal 2: Zero Hunger.</p>
-            <p>My main contribution involved developing, implementing, and testing code to build the model using supervised machine learning techniques, leveraging Python's Pandas and Seaborn libraries.</p>
-            <p>To see the code for supervised ML model, click <a href="https://github.com/flashdroid15/food_safety_security_DTP3">here</a>.</p>
-          </div>
+        <li class="project-details">
+          <h4>SUTD Food Review App</h4>
+          <img src="assets/images/50001_group_photo.jpg" alt="Food Review App" class="project-img">
+          <p>I collaborated in a team of 7 to develop, test, and implement a food review application using Android Studio. My role primarily involved developing and testing backend Java code for the app, utilizing various sorting algorithms. Additionally, I crafted frontend XML code to display menu items.</p>
+          <p>Code: <a href="https://github.com/nightlocky/infosys-group12-fovoroapp" class="java-link">here</a></p>
         </li>
-
-        <li>
-          <h4>Design Thinking and Innovation Project 2023: 50ARCHES</h4>
-          <div class="project-details">
-            <img src="assets/images/dti.jpg" alt="Image of our product">
-            <p>I was part of a 5-member team that built a prototype light installation aimed at improving the aesthetics of Changi Business Park. My main role was to generate a ripple-effect light sequence using Arduino code.</p>
-            <p>To see the demonstration of the colour-changing ripple-effect of the light installations, click <a href="assets/videos/ripple_effect.mp4" class="dti-vid">here</a>.</p>
-          </div>
+        <li class="project-details">
+          <h4>Design Thinking Project on Food Security</h4>
+          <p>I was part of a 5-member team that analysed the relationship between the prevalence of undernourishment and the various contributing variables, aiming to address food security in alignment with Sustainable Development Goal 2: Zero Hunger. My main contribution involved developing, implementing, and testing code to build the model using supervised machine learning techniques, leveraging Python's Pandas and Seaborn libraries.</p>
+          <p>Code: <a href="https://github.com/flashdroid15/food_safety_security_DTP3" class="dell-link">here</a></p>
         </li>
-        
-      </ul>
-    </div>
-  </section>
-
-  <section class="workshops">
-    <div class="container">
-      <h2>I have facilitated the following workshops:</h2>
-      <ul>
-        <li>
-          <h4><a href="https://gdsc.community.dev/events/details/developer-student-clubs-singapore-university-of-technology-and-design-presents-intro-to-javascript/">3DC Intro to JavaScript Workshop</a></h4>
-          <div class="workshop-details">
-            <img src="assets/images/js workshop.jpg" alt="Image of JS Workshop">
-            <p>This is a workshop that I prepared and facilitated on behalf of my Fifth Row, SUTD Google Developer Student Club &#40;SUTD GDSC&#41;, also known as Digital Design and Development Club &#40;3DC&#41;. I hope you will find these resources useful!!!</p>
-            <p>To access the resources used for the workshop, click <a href="https://github.com/r-muthu/Intro-to-JS-workshop/tree/main" class="js-link">here</a>.</p>
-          </div>
-        </li>
-
-        <li>
-          <h4>3DC goes to Hwa Chong!!! (Robot Mechanisms)</h4>
-          <div class="workshop-details">
-            <img src="assets/images/hwachong stickem.jpg" alt="Image of Robot Mechanisms Workshop">
-            <p>As a member of 3DC, I was part of the team that facilitated a 5-day workshop on robot mechanisms at Hwa Chong Institution.</p>
-            <p>To see the video of a Stick' Em Robot built by Hwa Chong students, click <a href="assets/videos/hcrobot.mp4" class="robot-vid">here</a>.</p>
-          </div>
+        <li class="project-details">
+          <h4>50Arches - Light Installation</h4>
+          <img src="assets/images/dti.jpg" alt="50Arches Installation" class="project-img">
+          <p>I worked in a team of 5 to design and build an interactive light installation at Changi Business Park. I programmed Arduino-based touch-activated lighting effects, creating a dynamic color-changing ripple effect. I also designed 3D models and floor plans using CAD software and Adobe Illustrator, ensuring a precise and visually engaging installation.</p>
         </li>
       </ul>
     </div>
   </section>
 
-  <footer>
+  <section class="activities section">
+    <div class="container">
+      <h2>Extra Curricular Activities</h2>
+      <ul class="activity-list">
+        <li class="workshop-details">
+          <h4>Google Developer Student Club - Facilitator</h4>
+          <img src="assets/images/js workshop.jpg" alt="JavaScript Workshop" class="workshop-img">
+          <p>I hosted an internal JavaScript workshop for SUTD students, covering core programming concepts and web development. Additionally, I was part of a team that conducted an outreach workshop at Hwa Chong Institution, where I demonstrated robot mechanisms and inspired students to explore STEM.</p>
+        </li>
+        <li class="workshop-details">
+          <h4>Electric Vehicle Club - Member</h4>
+          <p>I collaborated in a team of 7 to assemble a one-seater electric go-kart. I also designed and developed custom add-on accessories using Autodesk Fusion 360, which I 3D-printed for assembly, improving the kart's functionality and aesthetics.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="internships section">
+    <div class="container">
+      <h2>Internship Experience</h2>
+      <ul class="internship-list">
+        <li class="workshop-details">
+          <h4>Data Analyst Intern at SATS</h4>
+          <img src="assets/images/sats_data_analyst_intern.png" alt="SATS Internship" class="internship-img">
+          <p>I worked on a proof-of-concept project to enhance warehouse operations using computer vision. I trained and optimized a YOLOv8 object detection model in Python, improving shipment and QR code recognition. I also developed an algorithm for PTZ camera control, enabling automated tracking and seamless preset transitions. Additionally, I automated data processing pipelines, converting COCO annotations to YOLO format and integrating video processing with Azure Blob Storage. I debugged deployment challenges on NUC devices and optimized real-time detection performance.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
     <div class="container footer-contact">
       <p>Click <a href="https://www.linkedin.com/in/muthu-ramaswamy-a900bb29b/" class="linkedin-link">here</a> to see my LinkedIn profile.</p>
     </div>
