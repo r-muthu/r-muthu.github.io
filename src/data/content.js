@@ -15,10 +15,8 @@ export const content = {
     image: profileImg,
     introTitle: "Hi there, I'm Muthu!",
     introText: `
-I'm a Computer Science and Design (CSD) student at the Singapore University of Technology and Design (SUTD). 
-I enjoy applying machine learning and automation—especially computer vision—to solve real-world problems. 
-Through internships, academic projects, and hands-on workshops, I've built practical experience in full-stack development, data analysis, and deep learning pipelines. 
-I thrive on turning complex technical challenges into working solutions and exploring creative applications of technology.`,
+I'm a Computer Science and Design (CSD) graduate from the Singapore University of Technology and Design (SUTD) with a strong interest in AI engineering, machine learning, and software engineering.
+Through internships and academic projects, I've built practical experience developing computer vision systems, agentic AI applications, distributed systems, and full-stack software. I enjoy designing intelligent systems that combine machine learning with robust software engineering to solve real-world problems, and I'm always excited to learn new technologies and tackle challenging engineering problems.`,
     linkedin: "https://www.linkedin.com/in/muthu-ramaswamy-a900bb29b/",
   },
 
@@ -54,6 +52,50 @@ to streamline data management and model experimentation.`,
   ],
 
   projects: [
+    {
+      title: "DataPilot – Agentic AI-Powered Data Science Assistant",
+      period: "Jun 2026 – Present",
+      description: `
+  Developed an agentic AI assistant that automates dataset exploration, profiling, cleaning, visualization, and manipulation through natural language using LangChain tool-calling workflows.
+  Built a modular architecture supporting multiple LLM providers (Ollama, OpenAI, Google Gemini, and AWS Bedrock) through a unified interface for seamless switching between local and cloud models.
+  Implemented human-in-the-loop execution with sandboxed Python code generation, requiring explicit user approval before executing analysis or dataset modification scripts.
+  Engineered dataset tooling to automatically inspect directory structures, calculate train/validation/test distributions, detect annotation formats, identify dataset inconsistencies, and generate visualizations while preserving the original dataset through safe workspace isolation.`,
+      links: [
+        {
+          label: "GitHub Repository",
+          url: "https://github.com/r-muthu/datapilot",
+        },
+      ],
+      tech: [
+        "Python",
+        "LangChain",
+        "LangGraph",
+        "OpenAI",
+        "Gemini",
+        "AWS Bedrock",
+      ],
+    },
+    {
+      title: "Distributed Systems – Peer-to-Peer Mafia Game",
+      period: "Jan 2026 – Apr 2026",
+      description: `
+    Built a decentralized, serverless multiplayer Mafia game in Go supporting five concurrent players with real-time state replication, automatic game-state synchronization, and fault-tolerant communication over TCP.
+    Implemented Vector Clocks for causal ordering, Ricart–Agrawala for distributed mutual exclusion, heartbeat-based failure detection, and a simplified Paxos protocol for consensus under node failures.
+    Validated reliability through fault-injection testing and accelerated iterative development using AI-assisted prototyping and debugging.`,
+      links: [
+        {
+          label: "GitHub Repository",
+          url: "https://github.com/Lshprog/p2p_mafia",
+        }
+      ],
+      tech: [
+        "Go",
+        "TCP",
+        "Distributed Systems",
+        "Paxos",
+        "Vector Clocks",
+      ],
+    },
     {
       title: "SUTD Food Review App (Android)",
       period: "May 2024 – Aug 2024",
@@ -136,6 +178,15 @@ The project strengthened my understanding of full-stack web development and coll
 
   activities: [
     {
+  title: "Pillar Representative, ISTD",
+  period: "Jan 2025 – Present",
+  description: `
+Lead a team of student board members to identify student needs and deliver high-impact initiatives that enhance the experience of Computer Science and Design students.
+Collaborated with the ISTD Pillar to secure institutional funding and resources, launching a dedicated student co-working space and providing subsidized LeetCode Premium access for CSD students.
+Represented student interests in dialogue sessions with faculty and SUTD senior management, contributing to discussions on curriculum updates, academic policies, and student welfare.
+Awarded the Student Leader Excellence Award 2026 in recognition of leadership and contributions to the student community.`,
+    },
+    {
       title: "3DC Intro to JavaScript Workshop",
       period: "Jan 2025",
       description: `
@@ -162,14 +213,6 @@ I facilitated a 5-day robotics workshop at Hwa Chong Institution, teaching stude
 I provided hands-on guidance, monitored progress, and demonstrated working prototypes, including a Stick' Em robot, to encourage engagement and experimentation.`,
       image: stickemImg,
       video: hcRobotVideo,
-    },
-    {
-      title: "Pillar Representative, ISTD",
-      period: "Jan 2025 – Present",
-      description: `
-As a Pillar Representative for Information Systems Technology and Design (ISTD), I represent the interests and welfare of Computer Science and Design students to faculty and pillar administration. 
-I collaborate closely with the Student Association Council and the ISTD Undergraduate Student Board to enhance the overall student experience, advocate for initiatives, and ensure student concerns are addressed effectively.`,
-      //image: profileImg, // default image until you add a new one
-    },
+    }
   ],
 }
