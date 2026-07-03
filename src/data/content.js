@@ -54,7 +54,7 @@ to streamline data management and model experimentation.`,
   projects: [
     {
       title: "DataPilot – Agentic AI-Powered Data Science Assistant",
-      period: "Jun 2026 – Present",
+      period: "Jul 2026",
       description: `
   Developed an agentic AI assistant that automates dataset exploration, profiling, cleaning, visualization, and manipulation through natural language using LangChain tool-calling workflows.
   Built a modular architecture supporting multiple LLM providers (Ollama, OpenAI, Google Gemini, and AWS Bedrock) through a unified interface for seamless switching between local and cloud models.
@@ -188,7 +188,7 @@ Awarded the Student Leader Excellence Award 2026 in recognition of leadership an
     },
     {
       title: "3DC Intro to JavaScript Workshop",
-      period: "Jan 2025",
+      period: "Jan 2024",
       description: `
 I prepared and facilitated a JavaScript workshop as part of SUTD GDSC (3DC). 
 I guided participants through core JavaScript concepts, interactive coding exercises, and project-based learning. 
@@ -207,7 +207,7 @@ I also curated teaching resources, including slides and sample code, which are a
     },
     {
       title: "3DC goes to Hwa Chong (Robot Mechanisms)",
-      period: "Feb 2025",
+      period: "Feb 2024",
       description: `
 I facilitated a 5-day robotics workshop at Hwa Chong Institution, teaching students about robot mechanisms and design. 
 I provided hands-on guidance, monitored progress, and demonstrated working prototypes, including a Stick' Em robot, to encourage engagement and experimentation.`,
