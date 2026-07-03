@@ -179,7 +179,7 @@ The project strengthened my understanding of full-stack web development and coll
   activities: [
     {
   title: "Pillar Representative, ISTD",
-  period: "Jan 2025 – Present",
+  period: "Jan 2025 – Feb 2026",
   description: `
 Lead a team of student board members to identify student needs and deliver high-impact initiatives that enhance the experience of Computer Science and Design students.
 Collaborated with the ISTD Pillar to secure institutional funding and resources, launching a dedicated student co-working space and providing subsidized LeetCode Premium access for CSD students.
