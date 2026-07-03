@@ -53,7 +53,7 @@ Throughout the project, I documented findings, iterated on preprocessing techniq
 I contributed to a full-stack web application for managing workshop resources in a team of 7, using Agile methodologies. 
 I implemented RESTful APIs with Node.js and Express.js, managed data using MongoDB, and developed frontend components with React. 
 I also wrote unit tests with Jest and system tests with Cypress to ensure robustness. 
-The project strengthened my understanding of full-stack web development and collaborative coding practices.`,tech:["Node.js","Express","MongoDB","React"]}],activities:[{title:"Pillar Representative, ISTD",period:"Jan 2025 – Present",description:`
+The project strengthened my understanding of full-stack web development and collaborative coding practices.`,tech:["Node.js","Express","MongoDB","React"]}],activities:[{title:"Pillar Representative, ISTD",period:"Jan 2025 – Feb 2026",description:`
 Lead a team of student board members to identify student needs and deliver high-impact initiatives that enhance the experience of Computer Science and Design students.
 Collaborated with the ISTD Pillar to secure institutional funding and resources, launching a dedicated student co-working space and providing subsidized LeetCode Premium access for CSD students.
 Represented student interests in dialogue sessions with faculty and SUTD senior management, contributing to discussions on curriculum updates, academic policies, and student welfare.
